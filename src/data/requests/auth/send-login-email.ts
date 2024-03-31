@@ -5,6 +5,7 @@ export async function sendLoginEmail({ email }: { email: string }) {
     success: true,
     body: {
       token: null,
+      email,
     },
   }
   // const response = await fetch("http://localhost:4000/login", {
